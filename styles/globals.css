@@ -19,8 +19,120 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;
+    padding: 2rem;
   }
+}
+
+
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=date] {
+  -moz-appearance: textfield;
+}
+
+
+input[type=number]{
+  text-align: center;
+}
+
+.binaryOctetosContainer{
+  display: inline-flex;
+}
+
+.contenedorForm{
+  margin: 2rem;
+}
+#btCalcularContenedor{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#btCalcularContenedor > button{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: aqua;
+  color: black;
+  
+}
+
+
+.contenedorinputs{
+  text-align: start;
+  display: inline-flex;
+}
+
+.lbInputs{
+  padding-right: 5px;
+  width: 100px;
+  text-align: end;
+}
+
+.signoOperacion{
+  text-align: start;
+  padding-left: 120px;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.lineaResultado{
+  padding-right: 11.5rem;
+  padding-left: 3rem;
+}
+
+.lineaFormResult{
+  padding-right: 11.5rem;
+  padding-left: 2rem;
+}
+
+#resultados{
+  margin-left: 2rem;
+  text-align: start;
+}
+
+.secciones{
+  margin-bottom: 1rem;
+  text-align: start;
+
+}
+
+h1{
+  text-align: center;
+}
+
+#containerComplet{
+  text-align: center;
+  margin-left: 5.1rem;
+}
+
+.logoghcontainer{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  text-align: end;
+  margin: 5px;
+}
+
+#logogh:hover{
+  cursor: pointer;
 }
