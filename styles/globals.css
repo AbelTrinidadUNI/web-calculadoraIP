@@ -95,14 +95,16 @@ input[type=number]{
 }
 
 .lineaResultado{
-  padding-right: 11.5rem;
+  padding-right: 7.5rem;
   padding-left: 3rem;
 }
 
 .lineaFormResult{
-  padding-right: 11.5rem;
+  padding-right: 7.5rem;
   padding-left: 2rem;
 }
+
+
 
 #resultados{
   margin-left: 2rem;

@@ -187,7 +187,7 @@ export default function Home() {
     <h1>Calculadora IP</h1>
 
     <div className='logoghcontainer'>
-      <a href="http://" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/AbelTrinidadUNI/web-calculadoraIP" target="blank" >
         <Image src={logoGH} alt="gh-logo" id='logogh' width={50} height={50} />
       </a>
     </div>
@@ -254,12 +254,12 @@ export default function Home() {
 
       <div className='lineaFormResult'>
 
-        <hr />
+        <hr size="5" color='white'/>
       </div>
 
 
       <div id='resultados'>
-        <h3>Network</h3>
+        <h3>Network (Operación AND con la IP y la Mascara)</h3>
         <div className='contenedorinputs'>
           <label className="lbInputs" htmlFor="">IP: </label>
           <div className='binaryOctetosContainer'>
@@ -270,7 +270,7 @@ export default function Home() {
           </div>
         </div>
         <div className='signoOperacion'>
-          &
+          & (AND)
         </div>
         <div className='contenedorinputs'>
           <label className="lbInputs" htmlFor="" >Mask: </label>
@@ -299,7 +299,7 @@ export default function Home() {
         </div>
 
 
-        <h3>Broadcast</h3>
+        <h3>Broadcast (Operación OR con la IP, y la Mascara en complemento a uno)</h3>
         <div className='contenedorinputs'>
           <label className="lbInputs" htmlFor="">IP: </label>
           <div className='binaryOctetosContainer'>
@@ -310,10 +310,10 @@ export default function Home() {
           </div>
         </div>
         <div className='signoOperacion'>
-          |
+          | (OR)
         </div>
         <div className='contenedorinputs'>
-          <label className="lbInputs" htmlFor="" >Mask: </label>
+          <label className="lbInputs" htmlFor="" >Mask-CA1: </label>
           <div className='binaryOctetosContainer'>
             <InputBinary binarios={octeto1MaskNOT} setOcteto={setOcteto1MaskNOT} editable={false} /> .
             <InputBinary binarios={octeto2MaskNOT} setOcteto={setOcteto2MaskNOT} editable={false} /> .
